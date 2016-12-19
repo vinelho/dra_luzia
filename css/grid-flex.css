@@ -343,14 +343,13 @@ h1 {
 }
 
 .slide4 {
-  min-height: 70vh;
+  min-height: 85vh;
 }
 
 .slide4 h2 {
   font-size: 2.4rem;
   font-weight: 300;
   color: #00eaea;
-  text-align: center;
 }
 
 .slide5 {
@@ -396,7 +395,7 @@ h1 {
   .ilusB {
     background-image: url("../img/give-me-a-idea.png");
     background-attachment: fixed;
-    background-position: 52vw bottom;
+    background-position: 54vw bottom;
     background-size: 22vw;
     background-repeat: no-repeat !important;
   }
