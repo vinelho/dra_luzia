@@ -289,6 +289,12 @@ h1 {
   transform: translateY(1.5rem);
 }
 
+.setaBaixo {
+  width: 8rem;
+  height: auto;
+  margin-top: 7vh
+}
+
 .slide2, .slide4, .slide6 {
   background-color: #484141;
   padding: 1.2rem 0.5rem;
@@ -319,7 +325,7 @@ h1 {
 }
 
 .slide1 {
-  min-height: 95vh;
+  min-height: 100vh;
 }
 
 .slide1 h1 {
