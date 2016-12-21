@@ -301,10 +301,10 @@ h1 {
 }
 
 .setaBaixo {
-  width: 8rem;
+  width: 4.5rem;
   height: auto;
   margin-top: 7vh;
-  animation: rolar 1.4s infinite;
+  animation: rolar 1.6s infinite;
   animation-timing-function: ease-in-out;
 
 }
