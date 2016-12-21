@@ -227,6 +227,18 @@ form {
   }
 }
 
+@keyframes rolar {
+  0% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(0.9rem);
+  }
+  100% {
+    transform: translateY(0rem);
+  }
+}
+
 @keyframes surgir {
   0% {
     opacity: 0;
@@ -235,7 +247,6 @@ form {
     opacity: 1;
   }
 }
-
 
 html {
   font-family: 'Quicksand', sans-serif;
@@ -292,7 +303,10 @@ h1 {
 .setaBaixo {
   width: 8rem;
   height: auto;
-  margin-top: 7vh
+  margin-top: 7vh;
+  animation: rolar 1.4s infinite;
+  animation-timing-function: ease-in-out;
+
 }
 
 .slide2, .slide4, .slide6 {
